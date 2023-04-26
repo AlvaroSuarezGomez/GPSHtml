@@ -130,7 +130,16 @@ header{
    margin:auto;
    border-radius: 1cm;
    box-shadow: 4px 4px 6px 6px;
+   width: 75%;
 }
+#fotoini2{
+   display: block;
+   margin:auto;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 6px;
+   width: 75%;
+}
+
 
 }
 
@@ -151,6 +160,14 @@ header{
    margin:auto;
    border-radius: 1cm;
    box-shadow: 4px 4px 6px 4px;
+   width: 45%;
+}
+#fotoini2{
+   display: block;
+   margin: auto;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 4px;
+   width: 20%;
 }
 
 }
@@ -173,6 +190,15 @@ header{
    margin-left: 10%;
    border-radius: 1cm;
    box-shadow: 4px 4px 6px 4px;
+   width: 20%;
+}
+
+#fotoini2{
+   display: block;
+   margin: auto;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 4px;
+   width: 20%;
 }
  }
 
