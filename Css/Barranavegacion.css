@@ -125,7 +125,7 @@ header{
    color: rgb(132, 171, 255);
 }
 
-#foto1{
+.foto{
    display: block;
    margin:auto;
    border-radius: 1cm;
@@ -146,7 +146,7 @@ header{
    background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
    color: rgb(132, 171, 255);
 }
-#foto1{
+.foto{
    display: block;
    margin:auto;
    border-radius: 1cm;
@@ -167,7 +167,7 @@ header{
       background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
       color: rgb(132, 171, 255);
   }
-  #foto1{
+  .foto{
    float: left;
    margin-right: -100%;
    margin-left: 10%;
