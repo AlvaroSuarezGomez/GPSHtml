@@ -1,0 +1,25 @@
+hr{
+     border-color: black;
+}
+
+/*Para centrar y cambio de color de los titulos*/
+.titulos{
+    color: rgb(0, 225, 255);
+    text-align: center;
+}
+
+
+/*Ajustes para el primer parrafo color, posicionamiento y margenes*/
+#parrafointro{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+
+

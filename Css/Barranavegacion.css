@@ -1,0 +1,180 @@
+/*Ajuste generales de la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/*Ajustes del cuerpo como el fondo y su posicion*/
+body{
+   background-size: cover;
+   background-repeat:no-repeat;
+   opacity: 80%;
+   background-color: rgb(105, 105, 105);
+}
+
+/*Ajustes del pie de pagina*/
+footer{
+   background-color: black;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+footer p {
+   margin-top: 5px;
+}
+
+/*Ajustes de la barra de navegacion*/
+#nave{
+   width: 100%;
+   margin: auto ;
+   background:rgb(0, 0, 0);
+}
+#nave ul{
+   list-style: none;
+   text-align: center;
+   flex-direction: row;
+}
+#Menu li{
+   position: relative;
+   display: inline-block;
+}
+#Menu li a{
+   display: block;
+   padding: 15px 20px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+#Menu ul{
+   display: none;
+   position: absolute;
+   margin-left:100%;
+   margin-top: -1px;
+   background-color: black;
+}
+#Menu li a:hover{
+   color: burlywood;
+   transition: all .3s;
+}
+
+/*Ajuste para hacer invisible el input del boton del menu*/
+#menuboton{
+display: none;
+}
+
+#Menuboton{
+   display: none;
+   width: 80px;
+   height: 60px;
+  
+}
+
+#Menuboton > #fotomenu{
+   width: 80px;
+   height: 60px;
+}
+
+#Menuboton:hover{
+   background: rgba(192, 192, 192, 0.3);/*Al pasar el raton se enegrece*/
+}
+
+/*Ajustes de la barra de navegacion y header en tamaño movil*/
+@media (max-width: 800px){
+
+#secnavega{
+   background-color: black;
+}
+
+#Menuboton{
+   display: block;
+   
+}
+#nave{
+   position: absolute;
+   width: 60%;
+   margin-left: -60%;
+   transition: all 0.5s;
+}
+#Menu{
+   flex-direction: column;
+}
+#Menu li a{
+   font-size: 4vw;
+}
+#Menu  li{
+   display: flex;
+   border-top: 1px solid white;
+}
+
+#menuboton:checked ~ #nave{
+   margin: 0;
+   
+}
+
+#Menu li:hover ul{
+   display: block;
+}
+
+header{
+   text-align: center;
+   font-size: 5vw;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
+   color: rgb(132, 171, 255);
+}
+
+#foto1{
+   display: block;
+   margin:auto;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 6px;
+}
+
+}
+
+/*Ajustes de tamaño de letra y de header para tablets / ordenadores pequeños*/
+@media (min-width: 800px) and (max-width: 1400px){
+#Menu > li > a{
+   font-size: 1.5vw;
+}
+
+header{
+   text-align: center;
+   font-size: 3vw;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
+   color: rgb(132, 171, 255);
+}
+#foto1{
+   display: block;
+   margin:auto;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 4px;
+}
+
+}
+
+/*Ajustes de tamaño y de header para ordenadores de mesa*/
+@media (min-width: 1400px){
+   #Menu > li > a{
+      font-size: 2vw;
+   }
+
+   header{
+      text-align: center;
+      font-size: 3vw;
+      background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
+      color: rgb(132, 171, 255);
+  }
+  #foto1{
+   float: left;
+   margin-right: -100%;
+   margin-left: 10%;
+   border-radius: 1cm;
+   box-shadow: 4px 4px 6px 4px;
+}
+ }
+
+
+

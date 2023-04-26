@@ -1,0 +1,48 @@
+#Menu li li{
+    width: 100%;
+    margin: auto;
+}
+#Menu li ul{
+    width: 40%;
+}
+/*Para centrar y cambio de color de los titulos*/
+.titulos{
+    color: rgb(0, 225, 255);
+    text-align: center;
+}
+/*Ajustes para el primer parrafo color, posicionamiento y margenes*/
+#parrafointro{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+/*Ajustes para la tabla */
+table, td, th {
+    width: 20%;
+    border: 2px solid;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: darkgrey;
+    border-color: black;
+    
+}
+
+th{
+    background-color: rgb(80, 80, 80);
+}
+
+
+/*Parrafo de explicacion de las tarifas*/
+#Explicacion{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.subrayado{
+    text-decoration-line: underline;
+}
+
