@@ -7,7 +7,8 @@
     <title>Incidencias </title>
     <link rel="icon" href="Fotos/ICONO.png" sizes="32x32" >
     <link rel="stylesheet" href="Css/Barranavegacion.css">
-    <link rel="stylesheet" href="Css/Contacto.css">
+    <link rel="stylesheet" href="Css/Incidencias.css">
+
 </head>
 
 <!--Cuerpo de la pagina-->
@@ -30,7 +31,10 @@
                 <a href="Quienes_somos.html">Quienes somos</a>
             </li>
             <li>
-                <a href="Contacto.html">Incidencias</a>
+                <a href="Contrato.html">Contrato</a>
+            </li>
+            <li>
+                <a href="Incidencia.html">Incidencias</a>
             </li>
         </ul>
     </nav>
@@ -38,32 +42,30 @@
     </div>
 
     <!--elementos de la pagina-->
+    
     <div id="Formulario">
         <form>
             <div>
                 <!--Los elementos del formulario-->
                 <input class="control" type="text" name="Nombre" placeholder="Nombre" id="nombre">
                 <input class="control" type="email" name="Email" placeholder="Email" id="email">
-                <label class="control" for="fecha2" id="fecha"> Fecha de nacimiento: </label>
-                <input class="control" type="date" name="Fecha" id="fecha2">
-                <label class="Pago" id="Formato" for="rem">Forma de pago: </label>
-                <input class="Pago" type="radio" name="pago" id="rem"><label class="Pago" id="REM">Contrarembolso</label>
-                <input class="Pago" type="radio" name="pago" id="tar"><label class="Pago" id="TAR">Tarjeta</label>
-                <input class="Pago" type="radio" name="pago" id="tran"><label class="Pago" id="TRAN">Tranferencia</label>
-                <textarea class="control" name="Motivo" id="motivo">Direccion de envío</textarea>
-                <label class="control" id="cocheselecion">Tarifa a Contratar: </label>
                 <!--Formato para hacer un desplegable-->
+                <label id="Incidencia">Seleccione el tipo de incidencia:</label>
                 <select class="control" name="grupo" id="grupo">
-                    <optgroup label="Seleccione">
-                        <option>Informal</option>
-                        <option selected>Informal</option>
-                        <option>Simple</option>
-                        <option>Completa</option>
+                    <optgroup label="Seleccione1" id="desple1">
+                        <option id="hogar">Contenido del hogar</option>
+                        <option selected>Gastos de vivienda temporal</option>
+                        <option id="vivitempo">Gastos de vivienda temporal</option>
+                        <option id="estruc">Estructura de la vivienda</option>
+                        <option id="respocivil">Responsabilidad civil</option>
+                        <option id="ppredidauso">Pérdida de uso</option>
                     </optgroup>
                 </select>
+                <label id="textoarchivo">Foto del elemento roto o dañado:</label>
+                <input id="Archivo" type="file">            
                 <input class="control" id="terminos" type="checkbox" name="terminos">
                 <label class="control" id="condiciones" for="terminos" >Acepto los Terminos y condiciones</label>
-                <input class="control" type="submit" id="boton" value="Comprar">
+                <input class="control" type="submit" id="boton" value="Aceptar">
                 <button class="control" id="boton2">Cancelar</button>
             </div>
         </form>
