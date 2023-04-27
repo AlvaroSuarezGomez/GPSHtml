@@ -259,14 +259,6 @@ form{
         width: 50%;
         margin-bottom: 3%;
     }
-    #cocheselecion{
-        grid-column:1;
-        grid-row: 4;
-        margin-top: 0%;
-        width: 60%;
-        background-color: rgb(87, 83, 83);
-        text-decoration-line: underline;
-    }
     #grupo{
         margin-bottom: 0%;
         grid-column:1;
@@ -370,13 +362,6 @@ form{
         grid-row: 2;
         width: 50%;
         margin-right: 0;
-    }
-    #cocheselecion{
-        grid-column:1;
-        grid-row: 4;
-        margin-left: 0;
-        width: 35%;
-        text-decoration-line: underline;
     }
     #grupo{
         grid-column:1;
